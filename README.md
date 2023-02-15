@@ -5,7 +5,7 @@
 ## What can it do
 
 1. Generate random `ECC` key-pair to create a new session.
-2. Get the file’s download url without ` invalid X-Device-Id`.
+2. Get the file’s download url without `invalid X-Device-Id`.
 
 ## How to use
 
@@ -22,7 +22,7 @@
 
 3. `authorization` could be found in `Network`, choose any request, `Request Headers` -> `authorization`.
 
-4. `private key` could be found in `DevTools` -> `IndexedDB` -> `ALIYUN_DRIVE_CLIENT_SIGNATURE` -> `signature` -> `privateKey`.
+4. `private key` could be found in `DevTools` -> `Application` -> `IndexedDB` -> `ALIYUN_DRIVE_CLIENT_SIGNATURE` -> `signature` -> `privateKey`.
 
    `private key` will be generated automatically, so there’s no need to specificate.
 
