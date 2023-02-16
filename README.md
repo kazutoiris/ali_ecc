@@ -30,7 +30,9 @@
 
 There’re some problems need to be solved.
 
-* [ ] How to generate a `deviceId`?
+* [x] How to generate a `deviceId`?
+
+  Just a UUIDv4 string, So you can generate a deviceId randomly.
 * [ ] How to generate `authorization` from cookie or local storage?
 * [ ] How often is `nonce` updated? (Could be frozen?)
 
